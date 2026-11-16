@@ -6,7 +6,7 @@ from database import askQuestion
 from langchain_core.prompts import ChatPromptTemplate
 
 
-client = genai.Client(api_key="AQ.Ab8RN6KHh36-EvqMEO6saNFlevby23WG_JF5cKuMJvkEf0fyFA")
+client = genai.Client(api_key="add your API KEY HERE ")
 
 
 def create_prompt(question: str) -> str:
